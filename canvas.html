@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<html>
+    <body>
+        <canvas id="myCanvas" width ="200" height = "200" style="border:1px solid #FF0000;">
+        "해당 브라우저가 지원을 못해요!"
+        </canvas>
+            <script>
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            ctx.moveTo(0,0); //Moves the path to the specified point in the canvas, without creating a line
+            ctx.lineTo(200,200); //Adds a new point and creates a line to that point from the last specified point in the canvas
+            ctx.stroke(); //Actually draws the path you have defined
+            </script>
+    </body>
+</html>
