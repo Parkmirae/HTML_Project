@@ -96,3 +96,52 @@
 22-Apr-2019 09:09:11.297 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
 22-Apr-2019 09:09:11.298 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
 22-Apr-2019 09:09:11.299 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+22-Apr-2019 17:45:16.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.40
+22-Apr-2019 17:45:16.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 10 2019 14:31:19 UTC
+22-Apr-2019 17:45:16.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.40.0
+22-Apr-2019 17:45:16.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+22-Apr-2019 17:45:16.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-47-generic
+22-Apr-2019 17:45:16.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Apr-2019 17:45:16.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-oracle/jre
+22-Apr-2019 17:45:16.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_201-b09
+22-Apr-2019 17:45:16.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Apr-2019 17:45:16.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kimeuiyeon/HTML_Project/apache-tomcat-8.5.40
+22-Apr-2019 17:45:16.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kimeuiyeon/HTML_Project/apache-tomcat-8.5.40
+22-Apr-2019 17:45:16.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kimeuiyeon/HTML_Project/apache-tomcat-8.5.40/conf/logging.properties
+22-Apr-2019 17:45:16.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Apr-2019 17:45:16.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Apr-2019 17:45:16.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Apr-2019 17:45:16.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+22-Apr-2019 17:45:16.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-Apr-2019 17:45:16.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kimeuiyeon/HTML_Project/apache-tomcat-8.5.40
+22-Apr-2019 17:45:16.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kimeuiyeon/HTML_Project/apache-tomcat-8.5.40
+22-Apr-2019 17:45:16.914 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kimeuiyeon/HTML_Project/apache-tomcat-8.5.40/temp
+22-Apr-2019 17:45:16.914 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+22-Apr-2019 17:45:17.076 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Apr-2019 17:45:17.089 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Apr-2019 17:45:17.107 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+22-Apr-2019 17:45:17.109 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Apr-2019 17:45:17.113 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 622 ms
+22-Apr-2019 17:45:17.137 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Apr-2019 17:45:17.137 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.40
+22-Apr-2019 17:45:17.148 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kimeuiyeon/HTML_Project/apache-tomcat-8.5.40/webapps/host-manager]
+22-Apr-2019 17:45:17.473 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kimeuiyeon/HTML_Project/apache-tomcat-8.5.40/webapps/host-manager] has finished in [325] ms
+22-Apr-2019 17:45:17.473 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kimeuiyeon/HTML_Project/apache-tomcat-8.5.40/webapps/ROOT]
+22-Apr-2019 17:45:17.494 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kimeuiyeon/HTML_Project/apache-tomcat-8.5.40/webapps/ROOT] has finished in [21] ms
+22-Apr-2019 17:45:17.494 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kimeuiyeon/HTML_Project/apache-tomcat-8.5.40/webapps/examples]
+22-Apr-2019 17:45:17.845 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kimeuiyeon/HTML_Project/apache-tomcat-8.5.40/webapps/examples] has finished in [350] ms
+22-Apr-2019 17:45:17.845 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kimeuiyeon/HTML_Project/apache-tomcat-8.5.40/webapps/docs]
+22-Apr-2019 17:45:17.864 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kimeuiyeon/HTML_Project/apache-tomcat-8.5.40/webapps/docs] has finished in [19] ms
+22-Apr-2019 17:45:17.864 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kimeuiyeon/HTML_Project/apache-tomcat-8.5.40/webapps/manager]
+22-Apr-2019 17:45:17.891 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kimeuiyeon/HTML_Project/apache-tomcat-8.5.40/webapps/manager] has finished in [27] ms
+22-Apr-2019 17:45:17.895 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+22-Apr-2019 17:45:17.903 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+22-Apr-2019 17:45:17.905 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 791 ms
+22-Apr-2019 18:12:06.795 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+22-Apr-2019 18:12:06.796 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Apr-2019 18:12:06.806 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+22-Apr-2019 18:12:06.807 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+22-Apr-2019 18:12:06.833 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Apr-2019 18:12:06.835 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+22-Apr-2019 18:12:06.836 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+22-Apr-2019 18:12:06.837 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
