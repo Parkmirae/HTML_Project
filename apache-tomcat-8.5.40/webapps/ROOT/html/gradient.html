@@ -1,23 +1,27 @@
 <!DOCTYPE html>
-    <html>
-        <body>
+    
+	<html>
+        
+		<head>
+		<title> gradient </title>
+		<meta charset = "utf-8">
+		</head>
+
+		<body>
+
             <canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
                 "해당 브라우저가 지원을 못해요!"
             </canvas>
+
                 <script>
                     var c = document.getElementById ("myCanvas");
-                    var ctx = c.getContext("2d");
-
-    // Create gradient
-
+                    var ctx = c.getContext("2d");// Create gradient
                     var grd = ctx.createLinearGradient(0,0,200,0); //Creates a linear gradient (to use on canvas content)
-                    grd.addColorStop(0,"green");
-
-    // Fill with gradient
-
+                    grd.addColorStop(0,"green"); // Fill with gradient
                     ctx.fillStyle = grd;
                     ctx.fillRect(0,10,150,50);
                 </script>
 
-        </body>
+		</body>
+
     </html>
