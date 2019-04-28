@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 
 	<html>
 
@@ -8,15 +8,14 @@
 	
 			<script type = "text/javascript">
 				
-
+				//시계를 구동하는 함수 
 				function startTime(){
 					window.setInterval(showTime, 1000);
 				}
-
+				// 시계를 보여주는 함수 
 				function showTime(){
 					var date = new Date();
 					var view = document.getElementById("viewtime");
-					view.innerHTML = '<font color = "magenta" size = "15">' + date + '</font>';
 				}
 
 			</script>
@@ -24,7 +23,7 @@
 		</head>
 
 	<body>
-		
+		<!-- 클릭하면 시간이 흘러요! -->
 		<div id = "viewtime" align = "center"> </div>
 		<button onclick = "startTime();"> 시간 작동 </button>
 		
